@@ -48,14 +48,14 @@ def main_menu():
 
     if pagina == "Adicionar prestador":
         st.header("Adicionar novo prestador de serviço")
-        # Aqui depois virá a tela do Slide 3
+        adicionar_prestador()
     elif pagina == "Gerenciar prestadores":
         st.header("Gerenciar pessoas já cadastradas")
         # Aqui virá a tela com busca + edição de turnos e locais
     elif pagina == "Visualização geral":
         st.header("Visualização geral dos plantões")
         # Aqui será construído o calendário
-
+    
 # Botão de logout
 def logout_button():
     if st.sidebar.button("Sair"):
