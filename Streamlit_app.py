@@ -51,7 +51,7 @@ def main_menu():
         adicionar_prestador()
     elif pagina == "Gerenciar prestadores":
         st.header("Gerenciar pessoas já cadastradas")
-        # Aqui virá a tela com busca + edição de turnos e locais
+        gerenciar_prestadores()
     elif pagina == "Visualização geral":
         st.header("Visualização geral dos plantões")
         # Aqui será construído o calendário
