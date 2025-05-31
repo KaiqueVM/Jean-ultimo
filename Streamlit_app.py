@@ -54,7 +54,7 @@ def main_menu():
         gerenciar_prestadores()
     elif pagina == "Visualização geral":
         st.header("Visualização geral dos plantões")
-        # Aqui será construído o calendário
+        visualizacao_geral()
     
 # Botão de logout
 def logout_button():
